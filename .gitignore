@@ -1,0 +1,23 @@
+# Python / Node
+.venv/
+__pycache__/
+*.pyc
+frontend/node_modules/
+.DS_Store
+
+# AI models (downloaded by install.sh)
+models/*.pt
+models/*.onnx
+models/*.xml
+models/*.part
+
+# PRIVATE runtime data — never commit
+database/*
+recordings/continuous/*
+recordings/events/*
+snapshots/*
+logs/*
+exports/*
+config/*
+!**/.gitkeep
+frontend/*.tsbuildinfo
